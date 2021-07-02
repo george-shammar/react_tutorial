@@ -7,7 +7,7 @@ class Square extends React.Component {
         super(props);
 
         this.state = {
-            value = null,
+            value: null,
         };
     }
 
