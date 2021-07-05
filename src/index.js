@@ -28,7 +28,7 @@ import './index.css';
     renderSquare(i) {
       return <Square 
         value={this.props.squares[i]}
-        onClick = {() => this.handleClick(i)}
+        onClick = {() => this.props.onClick(i)}
       />;
     }
   
