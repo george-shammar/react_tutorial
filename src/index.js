@@ -25,6 +25,7 @@ class Square extends React.Component {
   }
   
   class Board extends React.Component {
+    
     constructor(props) {
       super(props);
 
