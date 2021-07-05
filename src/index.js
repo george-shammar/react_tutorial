@@ -31,7 +31,6 @@ class Square extends React.Component {
       this.setState({squares: squares});  
     }
 
-
     renderSquare(i) {
       return <Square 
         value={this.state.squares[i]}
