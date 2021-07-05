@@ -26,7 +26,7 @@ import './index.css';
       if (calculateWinner(squares) || squares[i]) {      
         return;    
       }
-      
+
       squares[i] = this.state.xIsNext ? 'X' : 'O';    
       this.setState({
       squares: squares,
@@ -74,6 +74,9 @@ import './index.css';
   }
   
   class Game extends React.Component {
+
+    
+
     render() {
       return (
         <div className="game">
