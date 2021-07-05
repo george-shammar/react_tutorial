@@ -79,7 +79,10 @@ import './index.css';
       super(props);
 
       this.state = {
-        
+        history: [{        
+          squares: Array(9).fill(null),      
+        }],      
+        xIsNext: true,
       }
     }
 
