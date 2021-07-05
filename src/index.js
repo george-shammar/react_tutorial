@@ -27,7 +27,7 @@ import './index.css';
       this.setState({
       squares: squares,
       xIsNext: !this.state.xIsNext,    
-    }); 
+     }); 
     }
 
     renderSquare(i) {
