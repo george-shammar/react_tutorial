@@ -17,6 +17,7 @@ import './index.css';
 
       this.state = {
         squares: Array(9).fill(null),
+        xIsNext: true,
       };
     }
 
