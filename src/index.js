@@ -26,7 +26,8 @@ import './index.css';
       squares[i] = this.state.xIsNext ? 'X' : 'O';    
       this.setState({
       squares: squares,
-      xIsNext: !this.state.xIsNext,    }); 
+      xIsNext: !this.state.xIsNext,    
+    }); 
     }
 
     renderSquare(i) {
