@@ -53,6 +53,7 @@ import './index.css';
           squares: Array(9).fill(null),      
         }],      
         xIsNext: true,
+        stepNumber: 0,
       }
     }
 
